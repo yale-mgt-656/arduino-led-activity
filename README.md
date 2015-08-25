@@ -1,6 +1,6 @@
 # Yale-MGT656-Arduino-LED-activity.md
 
-The purpose of this activity is to "get your hands dirty" with 
+The purpose of this activity is to "get your hands dirty" with
 computer hardware and code. We'll be using a
 [microcontroller](https://en.wikipedia.org/wiki/Microcontroller)
 called the [Ardiuno](https://www.arduino.cc/) to control
@@ -20,7 +20,7 @@ need the following supplies, which you should receive from the instructors:
 
 Plug the A-end of your USB into your computer and your B-end into the Arduino to turn on the Arduino. (Don't plug the A-end into anything other than a computer.) Your Arduino should power on.  Now, you want to choose a resistor and wire up your system like shown here
 
-![wire configuration for step 1](https://learn.adafruit.com/system/assets/assets/000/002/169/medium800/learn_arduino_fritzing.jpg?1396780115)
+![wire configuration for step 1](https://raw.githubusercontent.com/yale-mgt-656/arduino-led-activity/master/images/one-led-via-5v_bb.png)
 ![wire configuration for step 1](https://learn.adafruit.com/system/assets/assets/000/002/170/medium800/learn_arduino_overview.jpg?1396780130)
 
 The LED should light up.
@@ -59,7 +59,7 @@ At the bottom of the window, the IDE should be showing you how it is connected t
 
 ![arduino connection information](https://learn.adafruit.com/system/assets/assets/000/002/150/medium800/learn_arduino_bottom_of_ide_showing_board_port.jpg?1396779969)
 
-or 
+or
 
 TODO: INSERT IMAGE HERE!
 
