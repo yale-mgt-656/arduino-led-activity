@@ -133,7 +133,7 @@ Here are some questions to ask and some experiments you may enjoy.
 
 ## Step 4: Send a special message to another group
 
-We're going to play a game of [MadLibs](http://www.madlibs.com/) using blinking LEDs and [Morse code](https://en.wikipedia.org/wiki/Morse_code). Your group should receive
+We're going to play a game of [MadLibs](http://www.madlibs.com/). Each group will come up with a word and then transmit that to another group  via the blinking of LEDs [Morse code](https://en.wikipedia.org/wiki/Morse_code).  Your group should receive
 
 * a numeric assignment, and
 * an assigned part-of-speech, e.g. "verb" or "noun"
@@ -141,7 +141,57 @@ We're going to play a game of [MadLibs](http://www.madlibs.com/) using blinking 
 Please, then follow these steps.
 
 1. Choose a word that matches your part of speech, e.g. if you are assigned an adjective, you might choose "smelly" (particularly if you invoke your younger, MadLibs-playing self).
-2. Make your LED (or LEDs) blink that word in Morse code and make sure that your device is prominently displayed to whomever is responsible for reading your message.
+2. Make your LED (or LEDs) blink that word in Morse code and make sure that your device is prominently displayed to whomever is responsible for reading your message. To make your Morse code message, you will need to alternate high and low voltage and change the delays. You'll do this in the `loop` function. E.g. if you wanted to send the message "SOS", your `loop` function might look like this
+
+```processing
+void loop() {
+
+  // S = "dot dot dot"
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+
+  // O = "dash dash dash"
+  digitalWrite(13, HIGH);
+  delay(2000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(2000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(2000);
+  digitalWrite(13, LOW);
+  delay(1000);
+
+  // S = "dot dot dot"
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+}  
+```
+
+Obviously, it's mostly copying and pasting, then changing the delays. As you change the code, you'll need to upload it to the Arduino to get it to run.
+
 3. Find the group with the number lower than yours and decode their word by watching the blinking light and without asking them. (If you are group one, please decode the word from the group with the highest number.)
 4. Write their decoded word on the board at the front of class (or on the laptop, depending on what we're using).
 
