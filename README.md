@@ -79,10 +79,12 @@ Or, you might get an error if your computer didn't have the right settings to ta
 
 ![upload error](https://learn.adafruit.com/system/assets/assets/000/002/155/medium800/learn_arduino_upload_4_failed.jpg?1396779995)
 
-Now, what should you see on the board? You should see a constant red LED if you left your board the same way it was in part one of this activity: it's still plugged into the 5V pin! If you look at the code you uploaded, you'll notice that it is manipulating the power sent to pin 13. See the line that looks like as follows
+Now, what should you see on the board? You should see a constant red LED if you left your board the same way it was in part one of this activity: it's still plugged into the 5V pin! If you look at the code you uploaded, you'll notice that it is manipulating the power sent to pin 13. See the line that looks like as follows, which means "create an variable called `led`, which is an integer, and store the value 13 in it".
 
 ```processing
 int led = 13;
 ```
 
 In order to control the LED, we'll want to move the wire from the 5v pin to pin 13. Your writing should look roughly as follows
+
+![wire configuration for step 2](https://raw.githubusercontent.com/yale-mgt-656/arduino-led-activity/master/images/one-led-via-13pin_bb.png)
