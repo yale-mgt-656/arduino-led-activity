@@ -16,6 +16,7 @@ need the following supplies, which you should receive from the instructors:
 * some jumper wires
 * a [USB](https://en.wikipedia.org/wiki/USB) A-to-B1 power cable
 * some LEDs
+* some resistors
 * a [breadboard](https://en.wikipedia.org/wiki/Breadboard)
 
 Plug the A-end of your USB into your computer and your B-end into the Arduino to turn on the Arduino. (Don't plug the A-end into anything other than a computer.) Your Arduino should power on.  Now, you want to choose a resistor and wire up your system like shown here
@@ -32,6 +33,7 @@ Here are some questions you should be able to answer as a group (likely via sear
 * What does the resistor do?
 * What happens if you choose a different resistor?
 * How are the resistors different? (Notice their patterns)
+* Why do you think the resistor is used?
 * What is different about the LEDs that you have?
 
 ## Step 2: blink the LED
@@ -44,8 +46,12 @@ To do that, you'll need to download the [Arduino IDE](https://www.arduino.cc/en/
 onto your laptop. We'll write a program with the IDE and upload it via the USB cable
 onto the Arduino.
 
-Once you've installed the Arduino IDE, you'll want to load up the "blink" example code.
-Go to `File > Examples > 01. Basics > Blink` as shown in the following images.
+All of these directions in this section are based on the "Getting Started with Arduino" guides, so if you run into trouble, take a look at those guides. Here are the versions for [Windows](https://www.arduino.cc/en/Guide/Windows#toc4) and [Mac](https://www.arduino.cc/en/Guide/MacOSX).
+The only possible complicated part is that, on Windows,
+you might need to [install some drivers](https://www.arduino.cc/en/Guide/Windows#toc4) if it doesn't happen automatically. On a Mac, it should "just work".)
+
+Once you've installed the Arduino IDE, you'll want to load up the "blink" example code as discussed in the guides.
+Go to `File > Examples > 01. Basics > Blink`, just like I'm doing in the images below.
 
 ![loading arduino blink example](https://learn.adafruit.com/system/assets/assets/000/002/146/medium800/learn_arduino_opening_blink_example.jpg?1396779947)
 
