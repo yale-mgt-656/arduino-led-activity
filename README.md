@@ -35,6 +35,13 @@ Here are some questions you should be able to answer as a group (likely via sear
 * How are the resistors different? (Notice their patterns)
 * Why do you think the resistor is used?
 * What is different about the LEDs that you have?
+* What are the different parts of the Arudino?
+* What is missing on the Arudino that you'd find in your phone or laptop?
+
+Please don't feel like you need to answer these questions before you move on to
+the next step. Instead, this can happen in parallel and team members should choose
+to what they'd like to devote their attention based on that which most captures
+their interest.
 
 ## Step 2: blink the LED
 
@@ -199,6 +206,11 @@ Obviously, it's mostly copying and pasting, then changing the delays. As you cha
 3. Find the group with the number lower than yours and decode their word by watching the blinking light and without asking them. (If you are group one, please decode the word from the group with the highest number.)
 4. Write their decoded word on the board at the front of class (or on the laptop, depending on what we're using).
 
-## Step 5: Packing up
+## Step 5: Have fun!
+
+We have some buttons up front, which you can use on your breadboard so that you can control
+the LEDs using a mix of software and physical inputs. Feel free to muck around.
+
+## Step 6: Packing up
 
 Please return the LEDs and the resistors (the small parts) to the small static-free ziplock back. Please place the Arduino back in its box. And, then, please throw everything in the large ziplock bag and return it to the front of class. We hope you enjoyed this.
