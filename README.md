@@ -173,15 +173,15 @@ void loop() {
 
   // O = "dash dash dash"
   digitalWrite(13, HIGH);
-  delay(2000);
+  delay(3000);
   digitalWrite(13, LOW);
   delay(1000);
   digitalWrite(13, HIGH);
-  delay(2000);
+  delay(3000);
   digitalWrite(13, LOW);
   delay(1000);
   digitalWrite(13, HIGH);
-  delay(2000);
+  delay(3000);
   digitalWrite(13, LOW);
   delay(1000);
 
