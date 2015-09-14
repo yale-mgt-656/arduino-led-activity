@@ -65,11 +65,9 @@ At the bottom of the window, the IDE should be showing you how it is connected t
 
 ![arduino connection information](https://learn.adafruit.com/system/assets/assets/000/002/150/medium800/learn_arduino_bottom_of_ide_showing_board_port.jpg?1396779969)
 
-or
+You want to make sure it says something like "Arduino Uno on _____", where _____ is likely "COM4" or similar on Windows. On a Mac, this might look like or "/dev/tty.usbmodem1451" or similar. To adjust these settings if they are not correct, you'll want to go to "Tools > Board" or "Tools > Port". (If you have trouble, please ask the teaching staff and we'll be happy to help.)
 
-TODO: INSERT IMAGE HERE!
-
-Click on the 'Upload' button. The second button from the left on the toolbar.
+Now, you want to move the code from your computer to the Arduino. Click on the 'Upload' button. The second button from the left on the toolbar.
 
 ![arduino upload button](https://learn.adafruit.com/system/assets/assets/000/002/151/medium800/learn_arduino_upload_button.jpg?1396779976)
 
