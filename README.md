@@ -147,8 +147,8 @@ Here are some questions to ask and some experiments you may enjoy.
 We included in your kit a [piezoelectric buzzer](https://www.adafruit.com/product/160).
 With this, you should be able to make noises (and if you steal one from another
   group, you can make harmonies). The Ardiuo IDE includes functions called
-  `[tone](https://www.arduino.cc/en/Reference/Tone)` and
-  `[noTone](https://www.arduino.cc/en/Reference/NoTone)`, which you can use
+  [`tone`](https://www.arduino.cc/en/Reference/Tone) and
+  [`noTone`](https://www.arduino.cc/en/Reference/NoTone), which you can use
   to send electricity of a certain frequency to the buzzer for a certain
   duration, thereby playing musical notes and even a [melody](https://www.arduino.cc/en/tutorial/melody). For example,
   here is a [Star Wars melody for Arduino](https://gist.github.com/kljensen/6056e6ed81dc591c984d3e5df487e4ad).
