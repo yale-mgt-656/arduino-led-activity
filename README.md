@@ -142,74 +142,27 @@ Here are some questions to ask and some experiments you may enjoy.
 * Can you power more than one LED at the same time and have them blink in unison? How would you arrange them on the breadboard?
 * How would you arrange the LEDs to have one always on and one blinking? How would you have to arrange the wires to independently control two different LEDs on the breadboard? (To answer these questions, you might want to read this [tutorial on breadboards](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)).
 
-## Step 4: Send a special message to another group
+## Step 4: Make some noise
 
-We're going to play a game of [MadLibs](http://www.madlibs.com/). Each group will come up with a word and then transmit that to another group  via the blinking of LEDs [Morse code](https://en.wikipedia.org/wiki/Morse_code).  Your group should receive
+We included in your kit a [piezoelectric buzzer](https://www.adafruit.com/product/160).
+With this, you should be able to make noises (and if you steal one from another
+  group, you can make harmonies). The Ardiuo IDE includes functions called
+  `[tone](https://www.arduino.cc/en/Reference/Tone)` and
+  `[noTone](https://www.arduino.cc/en/Reference/NoTone)`, which you can use
+  to send electricity of a certain frequency to the buzzer for a certain
+  duration, thereby playing musical notes and even a [melody](https://www.arduino.cc/en/tutorial/melody). For example,
+  here is a [Star Wars melody for Arduino](https://gist.github.com/kljensen/6056e6ed81dc591c984d3e5df487e4ad).
 
-* a numeric assignment, and
-* an assigned part-of-speech, e.g. "verb" or "noun"
-
-Please, then follow these steps.
-
-1. Choose a word that matches your part of speech, e.g. if you are assigned an adjective, you might choose "smelly" (particularly if you invoke your younger, MadLibs-playing self).
-2. Make your LED (or LEDs) blink that word in Morse code and make sure that your device is prominently displayed to whomever is responsible for reading your message. To make your Morse code message, you will need to alternate high and low voltage and change the delays. You'll do this in the `loop` function. E.g. if you wanted to send the message "SOS", your `loop` function might look like this
-
-```processing
-void loop() {
-
-  // S = "dot dot dot"
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-
-  // O = "dash dash dash"
-  digitalWrite(13, HIGH);
-  delay(3000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(13, HIGH);
-  delay(3000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(13, HIGH);
-  delay(3000);
-  digitalWrite(13, LOW);
-  delay(1000);
-
-  // S = "dot dot dot"
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-}  
-```
-
-Obviously, it's mostly copying and pasting, then changing the delays. As you change the code, you'll need to upload it to the Arduino to get it to run.
-
-3. Find the group with the number lower than yours and decode their word by watching the blinking light and without asking them. (If you are group one, please decode the word from the group with the highest number.)
-4. Write their decoded word on the board at the front of class (or on the laptop, depending on what we're using).
+* Can you make a melody?
+* Can you blink an LED with the melody?
+* Does your kit have a button? Can you use the button to make an instrument?
 
 ## Step 5: Have fun!
 
-We have some buttons up front, which you can use on your breadboard so that you can control
-the LEDs using a mix of software and physical inputs. Feel free to muck around.
+We have some buttons and [photoresistors](https://www.adafruit.com/product/161)
+up front, which you can use on your breadboard so that you can control
+the LEDs using a mix of software and physical inputs. (The photoresistors
+  can be used to make light sensitive sounds or led blinks.) Feel free to muck around.
 
 ## Step 6: Packing up
 
