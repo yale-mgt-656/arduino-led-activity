@@ -164,6 +164,15 @@ up front, which you can use on your breadboard so that you can control
 the LEDs using a mix of software and physical inputs. (The photoresistors
   can be used to make light sensitive sounds or led blinks.) Feel free to muck around.
 
+### Optional Project: LED Light Strips
+
+We have some SMD 5050 LED Light Strips for you to play around with if you wish. These LEDs are powered through an external source, and will need additional elements to ensure the LEDs don't draw too much current from the power source. Come to the front and get these additional supplies if you want to try them out!
+
+![LED Light Strips](images/led-strip.jpg)
+
+Follow the instructions [here](https://learn.adafruit.com/rgb-led-strips/usage)  to set these up. Remember not to go over 12V! [Here](https://learn.adafruit.com/rgb-led-strips/example-code) is some example code to cycle through the rainbow!
+
+
 ## Step 6: Packing up
 
 Please return the LEDs and the resistors (the small parts) to the small static-free ziplock back. Please place the Arduino back in its box. And, then, please throw everything in the large ziplock bag and return it to the front of class. We hope you enjoyed this.
