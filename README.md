@@ -7,6 +7,10 @@ called the [Ardiuno](https://www.arduino.cc/) to control
 [light emitting diodes](https://en.wikipedia.org/wiki/Light-emitting_diode) (LED)
 via software we write.
 
+## Step zero: reset the Arduino
+
+Open up the blank program on the Arduino IDE, connect the Arduino to your computer via USB, and upload the program to the Arduino. This will clear the existing code on the microcontroller, and test your connection as well. Once this is done, you'll be ready to go!
+
 ## Step one: light up the LED
 
 To get started, let's make sure we can light up a single LED. You'll
