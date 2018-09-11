@@ -9,6 +9,7 @@ via software we write.
 
 ## Step zero: reset the Arduino
 
+First, insteall the [Arduino IDE](https://www.arduino.cc/en/Main/Software).
 Open up the blank program on the Arduino IDE, connect the Arduino to your computer via USB, and upload the program to the Arduino. This will clear the existing code on the microcontroller, and test your connection as well. Once this is done, you'll be ready to go!
 
 ## Step one: light up the LED
