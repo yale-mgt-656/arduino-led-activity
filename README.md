@@ -146,10 +146,13 @@ Here are some questions to ask and some experiments you may enjoy.
 * Can you power more than one LED at the same time and have them blink in unison? How would you arrange them on the breadboard?
 * How would you arrange the LEDs to have one always on and one blinking? How would you have to arrange the wires to independently control two different LEDs on the breadboard? (To answer these questions, you might want to read this [tutorial on breadboards](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)).
 
-## Step 4: Make some noise
+## Step 4: Make some noise or a light detector
 
-We included in your kit a [piezoelectric buzzer](https://www.adafruit.com/product/160).
-With this, you should be able to make noises (and if you steal one from another
+We included in most kits a [piezoelectric buzzer](https://www.adafruit.com/product/160)
+and in other kits a included a button and a [photoresistor](https://www.adafruit.com/product/161).
+
+
+If your group has the buzzer, you should be able to make noises (and if you steal one from another
   group, you can make harmonies). The Ardiuo IDE includes functions called
   [`tone`](https://www.arduino.cc/en/Reference/Tone) and
   [`noTone`](https://www.arduino.cc/en/Reference/NoTone), which you can use
@@ -161,20 +164,15 @@ With this, you should be able to make noises (and if you steal one from another
 * Can you blink an LED with the melody?
 * Does your kit have a button? Can you use the button to make an instrument?
 
+If your group has the the photoresistor, you should be able to
+[create a light detector](https://www.allaboutcircuits.com/projects/an-arduino-controlled-light-sensor/).
+
 ## Step 5: Have fun!
 
 We have some buttons and [photoresistors](https://www.adafruit.com/product/161)
 up front, which you can use on your breadboard so that you can control
 the LEDs using a mix of software and physical inputs. (The photoresistors
   can be used to make light sensitive sounds or led blinks.) Feel free to muck around.
-
-### Optional Project: LED Light Strips
-
-We have some SMD 5050 LED Light Strips for you to play around with if you wish. These LEDs are powered through an external source, and will need additional elements to ensure the LEDs don't draw too much current from the power source. Come to the front and get these additional supplies if you want to try them out!
-
-![LED Light Strips](images/led-strip.jpg)
-
-Follow the instructions [here](https://learn.adafruit.com/rgb-led-strips/usage)  to set these up. Remember not to go over 12V! [Here](https://learn.adafruit.com/rgb-led-strips/example-code) is some example code to cycle through the rainbow!
 
 
 ## Step 6: Packing up
